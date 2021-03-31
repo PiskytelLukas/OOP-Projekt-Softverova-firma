@@ -30,4 +30,10 @@ public class UiDesigner extends Employee {
 
     }
 
+    public UiDesigner(int count) {
+
+        id = count;
+
+    }
+
 }

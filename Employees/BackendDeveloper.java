@@ -30,4 +30,10 @@ public class BackendDeveloper extends Employee {
 
     }
 
+    public BackendDeveloper(int count) {
+
+        id = count;
+
+    }
+
 }

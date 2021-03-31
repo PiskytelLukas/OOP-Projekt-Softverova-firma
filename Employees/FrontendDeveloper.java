@@ -30,4 +30,10 @@ public class FrontendDeveloper extends Employee {
 
     }
 
+    public FrontendDeveloper(int count) {
+
+        id = count;
+
+    }
+
 }

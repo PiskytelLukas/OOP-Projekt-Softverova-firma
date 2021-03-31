@@ -1,12 +1,12 @@
 package Employees;
 
-public class backendDeveloper extends employee {
+public class UiDesigner extends Employee {
 
-    String type = "Backend Developer";
-    double workTime = 2;
-    double reworkTime = 2.5;
+    String type = "UI Designer";
+    double workTime = 1.95;
+    double reworkTime = 2.1;
 
-    boolean makeNewBackendCode(double workTime) {
+    boolean makeNewUI(double workTime) {
 
         // Some code here;
 
@@ -18,7 +18,7 @@ public class backendDeveloper extends employee {
 
     }
 
-    boolean recodeBackendCode(double reworkTime) {
+    boolean reworkUI(double reworkTime) {
 
         // Some code here;
 

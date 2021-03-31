@@ -1,6 +1,6 @@
 package Employees;
 
-public class frontendDeveloper extends employee {
+public class FrontendDeveloper extends Employee {
 
     String type = "Frontend Developer";
     double workTime = 1.75;

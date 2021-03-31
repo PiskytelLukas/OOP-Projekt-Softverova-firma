@@ -1,6 +1,6 @@
 package Employees;
 
-public class employee {
+public class Employee {
 
     int id;
     boolean isFree = true;

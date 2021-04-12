@@ -2,10 +2,10 @@ package Employees;
 
 public class Employee {
 
-    int id;
-    boolean isFree = true;
-    double workTime = 1;
-    double reworkTime = 1.5;
+    private int id;
+    private boolean isFree = true;
+    private double workTime = 1;
+    private double reworkTime = 1.5;
 
     boolean isFree(boolean isFree) {
 
@@ -16,9 +16,41 @@ public class Employee {
         }
     }
 
+    public void setId(int i) {
+
+        this.id = i;
+
+    }
+
     public int getId() {
 
-        return id;
+        return this.id;
+
+    }
+
+    public boolean isEmployeeFree() {
+
+        if (this.isFree == true) {
+
+            return true;
+
+        } else {
+
+            return false;
+
+        }
+
+    }
+
+    public double getEmployeeWorkTime() {
+
+        return this.workTime;
+
+    }
+
+    public double getEmployeeReworkTime() {
+
+        return this.reworkTime;
 
     }
 

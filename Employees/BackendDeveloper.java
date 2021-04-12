@@ -8,7 +8,7 @@ public class BackendDeveloper extends Employee {
 
     public BackendDeveloper(int count) {
 
-        this.id = count;
+         setId(count);
 
     }
 

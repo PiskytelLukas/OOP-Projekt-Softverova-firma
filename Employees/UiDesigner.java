@@ -6,6 +6,12 @@ public class UiDesigner extends Employee {
     double workTime = 1.95;
     double reworkTime = 2.1;
 
+    public UiDesigner(int count) {
+
+        setId(count);
+
+    }
+
     boolean makeNewUI(double workTime) {
 
         // Some code here;
@@ -27,12 +33,6 @@ public class UiDesigner extends Employee {
         } else {
             return false;
         }
-
-    }
-
-    public UiDesigner(int count) {
-
-        id = count;
 
     }
 

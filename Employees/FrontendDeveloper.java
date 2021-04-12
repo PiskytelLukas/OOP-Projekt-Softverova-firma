@@ -6,6 +6,12 @@ public class FrontendDeveloper extends Employee {
     double workTime = 1.75;
     double reworkTime = 1.85;
 
+    public FrontendDeveloper(int count) {
+
+        setId(count);
+
+    }
+
     boolean makeNewFrontendCode(double workTime) {
 
         // Some code here;
@@ -29,11 +35,4 @@ public class FrontendDeveloper extends Employee {
         }
 
     }
-
-    public FrontendDeveloper(int count) {
-
-        id = count;
-
-    }
-
 }

@@ -2,9 +2,9 @@ package Employees;
 
 public class UiDesigner extends Employee {
 
-    String type = "UI Designer";
-    double workTime = 1.95;
-    double reworkTime = 2.1;
+    private String type = "UI Designer";
+    private double workTime = 1.95;
+    private double reworkTime = 2.1;
 
     public UiDesigner(int count) {
 

@@ -36,4 +36,10 @@ public class BackendDeveloper extends Employee {
 
     }
 
+    public String getType() {
+
+        return this.type;
+
+    }
+
 }

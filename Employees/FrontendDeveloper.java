@@ -2,9 +2,9 @@ package Employees;
 
 public class FrontendDeveloper extends Employee {
 
-    String type = "Frontend Developer";
-    double workTime = 1.75;
-    double reworkTime = 1.85;
+    private String type = "Frontend Developer";
+    private double workTime = 1.75;
+    private double reworkTime = 1.85;
 
     public FrontendDeveloper(int count) {
 
@@ -35,4 +35,11 @@ public class FrontendDeveloper extends Employee {
         }
 
     }
+
+    public String getType() {
+
+        return this.type;
+
+    }
+
 }

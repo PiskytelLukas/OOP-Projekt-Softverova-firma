@@ -36,4 +36,10 @@ public class UiDesigner extends Employee {
 
     }
 
+    public String getType() {
+
+        return this.type;
+
+    }
+
 }

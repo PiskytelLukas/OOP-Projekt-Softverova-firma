@@ -2,9 +2,15 @@ package Employees;
 
 public class BackendDeveloper extends Employee {
 
-    String type = "Backend Developer";
-    double workTime = 2;
-    double reworkTime = 2.5;
+    private String type = "Backend Developer";
+    private double workTime = 2;
+    private double reworkTime = 2.5;
+
+    public BackendDeveloper(int count) {
+
+        this.id = count;
+
+    }
 
     boolean makeNewBackendCode(double workTime) {
 
@@ -27,12 +33,6 @@ public class BackendDeveloper extends Employee {
         } else {
             return false;
         }
-
-    }
-
-    public BackendDeveloper(int count) {
-
-        id = count;
 
     }
 

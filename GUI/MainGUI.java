@@ -113,13 +113,13 @@ public class MainGUI {
 
                     }
 
-                    /* Developer message
+                    /* Developer message */
                     for (int i = 0; i < count; i++) {
 
-                        System.out.println("Developer cislo: " + backendDevelopers[i].getId());
+                        System.out.println("Backend Developer cislo: " + backendDevelopers[i].getId());
 
                     }
-                    */
+
                     break;
                 }
 
@@ -134,6 +134,13 @@ public class MainGUI {
 
                     }
 
+                    /* Developer message */
+                    for (int i = 0; i < count; i++) {
+
+                        System.out.println("Frontend Developer cislo: " + frontendDevelopers[i].getId());
+
+                    }
+
                     break;
                 }
 
@@ -145,6 +152,13 @@ public class MainGUI {
                     for (int i = 0; i < count; i++) {
 
                         uiDesigners[i] = new UiDesigner(i);
+
+                    }
+
+                    /* Developer message */
+                    for (int i = 0; i < count; i++) {
+
+                        System.out.println("UI Developer cislo: " + uiDesigners[i].getId());
 
                     }
 
